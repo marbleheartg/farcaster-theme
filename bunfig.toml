@@ -1,0 +1,6 @@
+plugins = ["bun-plugin-tailwind"]
+env = "BUN_PUBLIC_*"
+entrypoints = ["src/frontend.tsx", "src/content.ts", "src/background.ts"]
+outdir = "dist"
+target = "browser"
+minify = true

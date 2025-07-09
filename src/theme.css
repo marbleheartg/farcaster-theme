@@ -1,0 +1,159 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: oklch(0.2 0.0735 7.09);
+    --accent: oklch(0.4 0.0735 7.09);
+    --muted: oklch(0.6 0.0735 7.09);
+    --bg: oklch(0.8677 0.0735 7.09);
+  }
+
+  html,
+  body,
+  #root {
+    background-color: var(--bg);
+    color: var(--text);
+  }
+
+  a {
+    color: white;
+  }
+
+  .bg-app {
+    background-color: var(--bg);
+  }
+
+  .text-default {
+    color: var(--text);
+  }
+
+  .text-muted {
+    color: var(--muted);
+  }
+
+  .text-faint {
+    color: var(--muted);
+  }
+
+  .bg-action-primary {
+    background-color: var(--accent);
+  }
+
+  .text-link {
+    color: var(--accent);
+  }
+
+  .bg-elevated {
+    background-color: var(--muted);
+  }
+
+  .bg-highlight {
+    background-color: var(--accent);
+  }
+
+  .bg-input {
+    background-color: var(--bg);
+  }
+
+  .bg-notification-blue {
+    background-color: var(--accent);
+  }
+
+  /* tag */
+
+  div
+    > div.relative.flex.flex-col
+    > div
+    > div
+    > div.mr-4.flex.flex-row.justify-between.gap-2
+    > div
+    > div.flex.w-full.min-w-0.flex-row.items-center.gap-1
+    > a.cursor-pointer
+    > div
+    > div {
+    color: pink !important;
+  }
+
+  /* logo */
+
+  #root
+    > div.mx-auto.min-h-full.xl\:container
+    > div
+    > aside.sticky.top-0.hidden.h-screen.shrink-0.sm\:block.xl\:w-\[220px\]
+    > div
+    > div
+    > div.flex.flex-row.items-center.justify-center.xl\:justify-between
+    > a.mx-4.block.xl\:ml-\[0\.05rem\]
+    > div
+    > svg
+    > rect {
+    fill: var(--accent) !important;
+  }
+
+  /* box */
+
+  #root
+    > div.mx-auto.min-h-full.xl\:container
+    > div
+    > aside.sticky.top-0.hidden.h-screen.shrink-0.sm\:block.xl\:w-\[220px\]
+    > div
+    > div
+    > a:nth-child(8)
+    > div
+    > div.flex.shrink-0.leading-4
+    > div
+    > svg
+    > path {
+    stroke: var(--text) !important;
+  }
+
+  /* rounded */
+
+  #root
+    > div.mx-auto.min-h-full.xl\:container
+    > div
+    > aside.sticky.top-0.hidden.h-screen.shrink-0.sm\:block.xl\:w-\[220px\]
+    > div
+    > div
+    > div:nth-child(16)
+    > span.flex.size-\[20px\].items-center.justify-center.rounded-full.border.xl\:mr-2 {
+    border-color: var(--text) !important;
+  }
+
+  #root
+    > div.mx-auto.min-h-full.xl\:container
+    > div
+    > aside.sticky.top-0.hidden.h-screen.shrink-0.sm\:block.xl\:w-\[220px\]
+    > div
+    > div
+    > div:nth-child(17)
+    > span.flex.size-\[20px\].items-center.justify-center.rounded-full.border.xl\:mr-2 {
+    border-color: var(--text) !important;
+  }
+
+  /* notifs */
+
+  #root > div.mx-auto.min-h-full.xl\:container > div > main > div > div > div > div > div {
+    background-color: var(--bg) !important;
+  }
+
+  #root
+    > div.mx-auto.min-h-full.xl\:container
+    > div
+    > main
+    > div
+    > div
+    > div
+    > div
+    > div
+    > div.flex.w-\[55\.5px\].shrink-0.flex-row.justify-center.pr-2
+    > div
+    > div
+    > svg {
+    fill: white !important;
+  }
+
+  /* tabs */
+
+  /* #root > div.mx-auto.min-h-full.xl\:container > div > main > div > div > nav > div:nth-child(2) > div > a > div {
+    color: var(--muted) !important;
+  } */
+}

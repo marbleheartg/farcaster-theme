@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --bg: oklch(0.1912 0.0254 306.97);
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-[var(--bg)] text-white p-5 w-xs;
+  }
+}
